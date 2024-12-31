@@ -1,9 +1,11 @@
-const textElem = document.getElementById("welcome");
+const heading = document.getElementById("welcome");
 const hours = new Date().getHours();
+let greeting;
 if( (hours > 6) && (hours < 12)){
-    textElem.innerHTML = "Good Morning! ";
+    greeting = "Good Morning!";
 }else if(hours < 16){
-    textElem.innerHTML = "Good Afternoon! ";
+    greeting = "Good Afternoon! ";
 }else{
-    textElem.innerHTML = "Good Evening! ";
+    greeting = "Good Evening! ";
 }
+heading.innerHTML = greeting + "<br>" + heading.textContent;

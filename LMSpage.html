@@ -1,15 +1,104 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>LMS</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+<head>
+    <title>LMS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header class="bg-primary">
+        <div class="row">
+            <h2 class="col-md-2">LMS</h2>
+            <ul class="nav justify-content-end col">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="hero">
+        <h1 id="welcome">Welcome to the LMS Platform</h1>
+        <p>Your gateway to knowledge and success. Explore a variety of cources and resources.</p>
+        <button class="btn btn-primary">Get Started</button>
+    </div>
+    <div class="feature">
+        <h3>Features</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Extensive Course Library</h5>
+                <p>Access cources in a variety of fields and skill level.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Interactive Discussions</h5>
+                <p>Engage in live discussions and group projects.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Certification</h5>
+                <p>Earn ceritficates to showcase your achievements.</p>
+            </div>
+        </div>
+    </div>
+    <div class="pop-courses">
+        <h3>Popular Courses</h3>
+        <div class="row">
+            <div class="card col-md-4" style="width: 18rem;">
+                <img src="images/rb_11844.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text">Learn to build modern, responsive websites using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="card col-md-4" style="width: 18rem;">
+                <img src="images/rb_11844.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Data Science</h5>
+                    <p class="card-text">Master data analysis, visualization, and machine learning techniques.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="card col-md-4" style="width: 18rem;">
+                <img src="images/rb_11844.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">Understand SEO, social media marketing, and online brandng strategies.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--py-3 gives vertical padding-->
+    <footer class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <p>© 2024 LMS Platform. All Rights Reserved.</p>
+        <p>
+            <a href="" class="text-white me-2">Privacy Policy</a> |
+            <a href="" class="text-white ms-2">Terms of Use</a>
+        </p>
+        </div>        
+    </footer>
         
-    </head>
-    <body>    
-        <h1 id="welcome"></h1>
-        <script src="script.js"></script>
-    </body>
+    
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
 </html>
